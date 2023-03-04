@@ -6,14 +6,38 @@ In this project, I learned how to use the basics of Object Relational Mapping to
 
 ## Installation
 
-The project just needs to be deployed from Heroku.
+npm init
+
+npm install mysql2
+
+npm install sequelize
+
+npm install dotenv
+
+## Run
+
+In order to run the application type the following command at the root of your project and answer the prompted questions:
+
+Run the following command at the root of your project and answer the prompted questions:
+
+mysql -u root -p
+
+Enter PW when promted
+
+source db/schema.sql
+
+quit
+
+npm run seed
+
+npm start
+
 
 ## Usage
+Video: https://watch.screencastify.com/v/4jC4vI3HrptmNJTPXA5z
 
-The screenshots:
-![Screenshot (41)](https://user-images.githubusercontent.com/112442942/209832465-8bcad426-313f-4104-b488-919f48f4b0da.png)
-![Screenshot (42)](https://user-images.githubusercontent.com/112442942/209832467-5fa2e1b6-2d1c-45e5-93ad-26cf2de1e009.png)
-![Screenshot (43)](https://user-images.githubusercontent.com/112442942/209832469-2bf665c3-7541-4a3d-8a92-57e67f5491c9.png)
+The screenshots:![Screenshot (99)](https://user-images.githubusercontent.com/112442942/222920892-b2c44555-4c8e-45de-a08a-90cbe1edfb89.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/112442942/222920893-fae189db-c8f5-451d-a48d-66cfd94060e1.png)
 
 ## Credits
 
